@@ -1,1 +1,42 @@
 
+## To make all child columns have equal width no matter what content in it.
+````css
+.parent-element-css-class {
+    display: flex;
+    gap: 1rem; // for giving a gap between items
+}
+
+.parent-element-css-class > * {
+    flex-basis: 100%; // force all children share equal width
+}
+````
+
+### A Grid Style layout without media queries
+````css
+.parent-element-css-class {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent-element-css-class > * {
+    flex: 1 1 30%; // grow shrink & baisis
+}
+````
+
+### Content & Side bar- To Create a std main content area and side bar.
+````css
+.parent-element-css-class {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.parent-element-css-class>*:nth-child(1){
+    flex: 1 1 70%;
+    min-width: 40ch;
+}
+
+.parent-element-css-class>*:nth-child(2){
+    flex: 1 1 30%;
+    min-width: 10ch;
+}
+````
