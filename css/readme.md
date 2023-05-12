@@ -40,3 +40,15 @@
     min-width: 10ch;
 }
 ````
+
+### Create a background with stripes 
+```
+.css-13irs1z {
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
+    padding: 0px;
+    aspect-ratio: 6 / 1;
+    border: 0px;
+    display: block;
+    color: inherit;
+}
+```
