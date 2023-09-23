@@ -1,2 +1,3 @@
 
-A place to store the lessions leanred from my day today codding work!
+A place to store the lessons learned from my day today codding work!
+
