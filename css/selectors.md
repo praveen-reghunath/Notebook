@@ -43,10 +43,11 @@ a[class~="primary"] {
 ### sibling selector
 
 ```
-<h2>This is a heading</h2>
-<p class="primary">hey</p>
 
-h2 ~ *[class="primary"] {
+<p>This is a heading</p>
+<span class="primary">hey</span>
+
+p ~ *[class="primary"] {
   font-weight: bold;
 }
 ```
