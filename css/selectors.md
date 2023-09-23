@@ -31,10 +31,22 @@ img[title=flower] {
 }
 ```
 
-### sibling selector
+#### attribute value includes
 ```
 <a href="..." class="btn primary" />
+
 a[class~="primary"] {
+  font-weight: bold;
+}
+```
+
+### sibling selector
+
+```
+<h2>This is a heading</h2>
+<p class="primary">hey</p>
+
+h2 ~ *[class="primary"] {
   font-weight: bold;
 }
 ```
