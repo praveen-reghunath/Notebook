@@ -53,7 +53,7 @@
 }
 ```
 
-The document.getAnimations method returns an array of CSSAnimation objects. 
+### The document.getAnimations method returns an array of CSSAnimation objects. 
 ```
 // Make all CSS animations on the page twice as fast
 document.getAnimations().forEach((animation) => {
