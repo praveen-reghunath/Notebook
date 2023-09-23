@@ -52,3 +52,16 @@
     color: inherit;
 }
 ```
+
+The document.getAnimations method returns an array of CSSAnimation objects. 
+```
+// Make all CSS animations on the page twice as fast
+document.getAnimations().forEach((animation) => {
+  animation.playbackRate *= 2;
+});
+
+// Stop all CSS animations on the page
+document.getAnimations().forEach((animation) => {
+  animation.cancel();
+});
+```
