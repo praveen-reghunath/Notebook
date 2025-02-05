@@ -11,4 +11,9 @@ console.log(subStr);  // Output: "world"
 
 let subStrFromEnd = str.slice(-6, -1);  // Extracts the last 6 characters
 console.log(subStrFromEnd);  // Output: "world"
+
+let subStrTillEnd = str.slice(2);  // if we omit second param it return till the end of the string
+console.log(subStrTillEnd);  // Output: "llo, world!"
+console.log(str.substring(2));  // Output: "llo, world!"
+
 ```
