@@ -1,11 +1,11 @@
 
-### search for `https://` or `http://`
+### Search for `https://` or `http://`
 
 ```
 /^(http(s{0,1}):\/\/)/gi
 ```
 
-### search for specific file extensions exists in the url
+### Search for specific file extensions exists in the url
 
 ```
 /^.*\.(jpg|png|gif|html|doc|htm|pdf|jpeg|js|css|webp|svg|mp4|wav|)$/igm
