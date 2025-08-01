@@ -27,3 +27,8 @@ nvm use 20.9.0
 ```
 nvm alias default 22.14.0
 ```
+
+### List availabe versions to install
+```
+nvm ls-remote
+```
