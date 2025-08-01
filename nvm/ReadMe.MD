@@ -22,3 +22,8 @@ nvm ls
 ```
 nvm use 20.9.0
 ```
+
+### Set a version as default
+```
+nvm alias default 22.14.0
+```
