@@ -13,7 +13,7 @@ nvm -v
 nvm install v20.9.0
 ```
 
-### list installed node versions
+### List installed node versions
 ```
 nvm ls
 ```
