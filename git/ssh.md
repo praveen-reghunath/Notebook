@@ -25,3 +25,13 @@ git config user.email
 ```
  git config --global user.email "praxxx.xxxxx@gmail.com"
 ```
+#### Change local user name and email
+
+```sh
+git config --local user.name "my-user-name"
+git config --local user.email "github-email"
+```
+
+```sh
+git commit -S -m "YOUR_COMMIT_MESSAGE"
+```
