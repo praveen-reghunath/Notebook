@@ -14,4 +14,9 @@ npm config list
 npm config delete registry
 ```
 
+#### Change local user name and email
 
+```sh
+git config --local user.name "my-user-name"
+git config --local user.email "github-email"
+```
