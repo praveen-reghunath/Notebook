@@ -25,13 +25,9 @@ git config user.email
 ```
  git config --global user.email "praxxx.xxxxx@gmail.com"
 ```
-#### Change local user name and email
+#### Change user name and email for a specific repo
 
 ```sh
-git config --local user.name "my-user-name"
-git config --local user.email "github-email"
-```
-
-```sh
-git commit -S -m "YOUR_COMMIT_MESSAGE"
+git config --local user.name "my-user-name-not-the-display-name"
+git config --local user.email "the-github-email-copy-from-github-settings"
 ```
