@@ -42,7 +42,7 @@
 ````
 
 ### Create a background with stripes 
-```
+```css
 .css-13irs1z {
     background-image: repeating-linear-gradient(-45deg, transparent, transparent 8px, currentcolor 8px, currentcolor 10px);
     padding: 0px;
@@ -54,7 +54,7 @@
 ```
 
 ### The document.getAnimations method returns an array of CSSAnimation objects. 
-```
+```js
 // Make all CSS animations on the page twice as fast
 document.getAnimations().forEach((animation) => {
   animation.playbackRate *= 2;

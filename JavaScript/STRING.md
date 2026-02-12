@@ -1,7 +1,7 @@
 ## extract a substring from a string
 
 We can use substring or slice
-```
+```js
 let str = "Hello, world!";
 let result = str.substring(7, 12); // This method returns a part of the string between two specified indices.
 console.log(result); // Output: "world"

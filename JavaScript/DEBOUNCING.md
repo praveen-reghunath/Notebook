@@ -5,7 +5,7 @@ Debouncing is a way of delaying the execution of a function until a certain amou
 
 eg: Search box: When you type something in a search box, it doesn’t show suggestions on every keystroke, but waits until you stop typing for a while.
 
-```
+```js
 const debounce = (mainFunction, delay) => {
     // Declare a variable called 'timer' to store the timer ID
     let timer;
@@ -25,7 +25,7 @@ const debounce = (mainFunction, delay) => {
 
 Now use the function some where like bellow. 
 
-```
+```js
 // Define a function called 'searchData' that logs a message to the console
 function search() {
   console.log("searchData executed");

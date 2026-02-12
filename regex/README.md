@@ -1,22 +1,22 @@
 
 ### Search for `https://` or `http://`
 
-```
+```js
 /^(http(s{0,1}):\/\/)/gi
 ```
 
 ### Search for specific file extensions exists in the url
 
-```
+```js
 /^.*\.(jpg|png|gif|html|doc|htm|pdf|jpeg|js|css|webp|svg|mp4|wav|)$/igm
 ```
 
 matches
 ```
-    http://google.com/something/css/app.6acd2351.css    
-    http://google.com/something/js/app.6acd2351.js    
-    http://google.com/something/img/background.975ebf08.webp    
-    http://google.com/something/6acd2351.mp4
+http://google.com/something/css/app.6acd2351.css    
+http://google.com/something/js/app.6acd2351.js    
+http://google.com/something/img/background.975ebf08.webp    
+http://google.com/something/6acd2351.mp4
 ```
 Skips
 ```
