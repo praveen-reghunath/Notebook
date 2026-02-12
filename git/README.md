@@ -40,7 +40,7 @@ git revert <commit-hash>
 Git itself tracks filenames **case-sensitively**.
 But if OS doesn’t report a change, Git won’t record it — so GitHub never sees it.
 
-Rename files in two commits
+Rename files in two steps
 ```sh
 git mv myFile.rs temp.rs
 git commit -m "Temp rename"
