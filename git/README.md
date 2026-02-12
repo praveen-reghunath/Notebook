@@ -35,7 +35,7 @@ Incase you want to give a detailed message for the revert
 git revert <commit-hash>
 ```
 
-### Force Git to Notice Case Changes in fine names
+### Force Git to Notice Case Changes in file names
 
 Git itself tracks filenames **case-sensitively**.
 But if OS doesn’t report a change, Git won’t record it — so GitHub never sees it.
